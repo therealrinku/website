@@ -1,0 +1,28 @@
+body{
+    background: black;
+    color: white;
+    font-family: monospace;
+    padding: 3px 10px;
+}
+
+.line{
+    display:flex;
+    align-items:center;
+    align-items:center;
+    width:100%;
+}
+
+.line .main-text{
+    color:coral;    
+}
+
+.line input{
+    background:inherit;
+    color:white;
+    border: none;
+    margin-left:5px;
+    outline:none;
+    font-family:inherit;
+    width:95%;
+    caret-color: white;
+}
