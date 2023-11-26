@@ -6,56 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rinkerminal</title>
     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/dusk/344/web.png  " />
-    <style>
-      body {
-        background: #212121;
-        color: white;
-        font-family: monospace;
-        padding: 3px 10px;
-      }
-
-      a {
-        color: aqua;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      .line {
-        display: flex;
-        align-items: center;
-        align-items: center;
-        width: 100%;
-      }
-
-      .line .main-text {
-        color: coral;
-        font-weight: bold;
-      }
-
-      .line input {
-        background: inherit;
-        color: white;
-        border: none;
-        margin-left: 5px;
-        outline: none;
-        font-family: inherit;
-        width: 95%;
-        caret-color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
-    <div class="body">
-      <div id="help-section">
-        <p>Welcome to my website :) type "help" for the list of available commands.</p>
+    <div class="app">
+      <div id="app-top">
+        <p>RINKERMINAL</p>
       </div>
-      <form class="line">
-        <p class="main-text"><i>visitors</i>@rinku:$</p>
-        <input type="text" autofocus id="command-input" autocomplete="off" />
-      </form>
+      <div class="app-body">
+        <div id="help-section">
+          <p>Welcome traveller! Type "help" for the list of available commands.</p>
+        </div>
+        <form class="line">
+          <p class="main-text">rinkerminal:home$</p>
+          <input type="text" autofocus id="command-input" autocomplete="off" />
+        </form>
+      </div>
     </div>
     <script type="text/javascript" src="script.js" defer></script>
   </body>

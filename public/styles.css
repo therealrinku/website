@@ -1,0 +1,94 @@
+body {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  color: white;
+  font-family: monospace;
+  width: 750px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+#app-top {
+  background-color: coral;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: grabbing;
+  display: flex;
+  justify-content: space-between;
+}
+
+#app-top button {
+  font-size: 18px;
+  background-color: inherit;
+  border:none;
+  color:white;
+}
+
+.app-body {
+  overflow-y: auto;
+  height: 400px;
+  background: #212121;
+}
+
+a {
+  color: aqua;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#help-section {
+  padding: 0 10px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.line .main-text {
+  color: coral;
+  font-weight: bold;
+}
+
+.line input {
+  background: inherit;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  outline: none;
+  font-family: inherit;
+  width: 95%;
+  caret-color: white;
+}
+
+@media (max-width: 755px) {
+  body {
+    background: #212121;
+  }
+  .app {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+  }
+
+  .app-body {
+    height: 100%;
+  }
+}
