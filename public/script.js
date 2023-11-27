@@ -15,7 +15,7 @@ const RESPONSES = {
   linkedin:
     "<div><b style='color:coral;'>Here is my linkedin profile</b><br/><a href='https://www.linkedin.com/in/rinkunited/' target='_blank'>linkedin.com/in/rinkunited</a><p>-----</p></div>",
   projects:
-    "<div><b style='color:coral;'>Here are some of my personal projects</b><br/><a href='https://robosocial.web.app/' target=_blank'>Robosocial(social media app)</a><br/><a href='https://taskyoxx.web.app/' target='_blank'>Taskyoxx(todo app)</a> <br/><a href='https://arcshare.vercel.app/' target='_blank'>Arcshare (file sharing app)</a> <p>-----</p></div>",
+    "<div><b style='color:coral;'>Here are some of my personal projects</b><br/><a href='https://robosocial.web.app/' target=_blank'>Robosocial(social media app)</a><br/><a href='https://taskyoxx.web.app/' target='_blank'>Taskyoxx(todo app)</a> <br/><a href='https://roboshare.vercel.app/' target='_blank'>Roboshare (file sharing app)</a> <p>-----</p></div>",
   introduction:
     "<div><b style='color:coral;'>Here is my brief introduction</b><br/><p>I'm Rinku Chaudhari from Nepal. <br/>I have 3+ years of experience working on both frontend and backend technologies.  <br/>I have mostly worked on React.js but I have a knowledge of wide variety of programming languages from backend to frontend. enter 'skills' for more info</p><p>-----</p></div>",
   invalidCommand: "<p>Invalid command. Enter 'help' for the list of available commands.</p>",
