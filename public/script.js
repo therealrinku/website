@@ -6,7 +6,7 @@
 const RESPONSES = {
   help: "<div><b style='color:coral;'>Available commands</b><p>help - for help</p><p>clear - to clear the terminal</p><p>skills - to see the list of my skills</p><p>linkedin - my linkedin profile</p><p>github - my github profile</p><p>projects - my personal projects</p><p>intro - my brief introduction</p><p>-----</p></div>",
   skills:
-    "<div><b style='color:coral;'>I have experience in following programming languages</b><p>HTML,CSS,JS</p><p>React.js</p><p>Next.js</p>  <p>Vue.js</p> <p>Node.js</p>  <p>Postgres, MongoDB</p> <p>Python and Django</p> <p>React Native</p>   <p style='color:coral;'>Most importantly I am super passionate about learning new tools and technologies.</p><p>-----</p></div>",
+    "<div><b style='color:coral;'>I have experience in following programming language/frameworks</b><p>HTML,CSS,JS</p><p>React.js</p><p>Next.js</p>  <p>Vue.js</p> <p>Node.js</p>  <p>Postgres, MongoDB</p> <p>Python and Django</p> <p>React Native</p>   <p style='color:coral;'>Most importantly I am super passionate about learning new tools and technologies.</p><p>-----</p></div>",
   github:
     "<div><b style='color:coral;'>Here is my github profile</b><br/><a style='text-decoration:underline;' href='https://github.com/therealrinku/' target='_blank'>github.com/therealrinku</a><p>-----</p></div>",
   linkedin:
